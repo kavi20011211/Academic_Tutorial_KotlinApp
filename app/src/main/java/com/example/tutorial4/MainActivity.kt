@@ -7,7 +7,6 @@ import android.widget.CheckBox
 import android.widget.EditText
 import android.widget.Spinner
 import android.widget.TextView
-import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import com.example.tutorial4.models.FromData
 import com.example.tutorial4.models.validations.ValidationResult
@@ -39,7 +38,7 @@ class MainActivity : AppCompatActivity() {
         builder.setTitle(title)
         builder.setMessage(message)
         builder.setPositiveButton("OK") { dialog, which ->
-
+            // Do something when the "OK" button is clicked
         }
         val dialog = builder.create()
         dialog.show()
