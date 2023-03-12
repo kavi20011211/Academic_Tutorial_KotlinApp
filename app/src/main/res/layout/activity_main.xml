@@ -19,7 +19,7 @@
         android:textSize="36dp"/>
 
     <EditText
-        android:id="@+id/edtStudentID"
+        android:id="@+id/edtStudentId"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:ems="10"
